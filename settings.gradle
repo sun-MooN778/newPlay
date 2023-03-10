@@ -1,0 +1,22 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "NewPlay"
+include ':app'
+include ':kb_user'
+include ':kb_common'
+include ':kb_home'
+include ':kb_me'
+include ':kb_project'
+include ':kb_navigation'

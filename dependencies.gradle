@@ -1,0 +1,9 @@
+apply plugin: 'org.jetbrains.kotlin.android'
+android {
+    buildFeatures {
+        dataBinding = true
+    }
+}
+dependencies {
+
+}
